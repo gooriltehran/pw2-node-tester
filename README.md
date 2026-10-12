@@ -57,6 +57,7 @@ Shell POSIX sh (BusyBox)
 نصب
  
 دستور زیر را در SSH روتر اجرا کنید:
+
 wget -O /tmp/pw2nt-install.sh https://raw.githubusercontent.com/gooriltehran/pw2-node-tester/main/install.sh && sh /tmp/pw2nt-install.sh
  
 پس از نصب، وارد LuCI شوید و صفحه را با فشردن Ctrl+F5 بازخوانی کنید.
@@ -73,6 +74,7 @@ wget -O /tmp/pw2nt-install.sh https://raw.githubusercontent.com/gooriltehran/pw2
 حذف
  
 دستور زیر را در SSH روتر اجرا کنید:
+
 wget -O /tmp/pw2nt-uninstall.sh https://raw.githubusercontent.com/gooriltehran/pw2-node-tester/main/uninstall.sh && sh /tmp/pw2nt-uninstall.sh
  
 فقط فایل‌هایی که این افزونه اضافه کرده است حذف می‌شوند. Passwall2، تنظیمات UCI، و تمام نودها دست‌نخورده باقی می‌مانند.
@@ -126,6 +128,7 @@ Dependencies None
 Installation
  
 Run the following command over SSH on your router:
+
 wget -O /tmp/pw2nt-install.sh https://raw.githubusercontent.com/gooriltehran/pw2-node-tester/main/install.sh && sh /tmp/pw2nt-install.sh
  
 Then open LuCI and refresh the page with Ctrl+F5.
@@ -140,6 +143,7 @@ Usage
 Uninstall
  
 Run the following command over SSH on your router:
+
 wget -O /tmp/pw2nt-uninstall.sh https://raw.githubusercontent.com/gooriltehran/pw2-node-tester/main/uninstall.sh && sh /tmp/pw2nt-uninstall.sh
  
 Only the files added by this add-on are removed. Passwall2, its UCI configuration, and all of your nodes remain untouched.
