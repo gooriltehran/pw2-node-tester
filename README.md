@@ -24,14 +24,14 @@
  
 <a id="-فارسی"></a>
  
-فارسی
+
  
 <div dir="rtl" align="right">
 
  
 درباره
- 
-Passwall2 Node Tester یک افزونه‌ی سبک برای Passwall2 است که به شما امکان می‌دهد تأخیر (latency) تمام نودهای یک گروه سابسکرایب را مستقیماً از رابط وب LuCI اندازه‌گیری کنید.
+
+یک افزونه‌ی سبک برای Passwall2 است که به شما امکان می‌دهد تأخیر (latency) تمام نودهای یک گروه سابسکرایب را مستقیماً از رابط وب LuCI اندازه‌گیری کنید.
  
 به‌جای آزمایش هم‌زمان تمام نودها — که ممکن است دقایق طولانی به طول بیانجامد — این افزونه امکان می‌دهد هر گروه را به‌صورت مستقل تست کنید، پیشرفت زنده را مشاهده کنید، و نتیجه را ذخیره کنید تا سریع‌ترین نودها را بشناسید.
  
@@ -58,7 +58,9 @@ Shell POSIX sh (BusyBox)
  
 دستور زیر را در SSH روتر اجرا کنید:
 
+```sh
 wget -O /tmp/pw2nt-install.sh https://raw.githubusercontent.com/gooriltehran/pw2-node-tester/main/install.sh && sh /tmp/pw2nt-install.sh
+```
  
 پس از نصب، وارد LuCI شوید و صفحه را با فشردن Ctrl+F5 بازخوانی کنید.
  
@@ -75,7 +77,9 @@ wget -O /tmp/pw2nt-install.sh https://raw.githubusercontent.com/gooriltehran/pw2
  
 دستور زیر را در SSH روتر اجرا کنید:
 
+```sh
 wget -O /tmp/pw2nt-uninstall.sh https://raw.githubusercontent.com/gooriltehran/pw2-node-tester/main/uninstall.sh && sh /tmp/pw2nt-uninstall.sh
+```
  
 فقط فایل‌هایی که این افزونه اضافه کرده است حذف می‌شوند. Passwall2، تنظیمات UCI، و تمام نودها دست‌نخورده باقی می‌مانند.
  
@@ -129,7 +133,9 @@ Installation
  
 Run the following command over SSH on your router:
 
+```sh
 wget -O /tmp/pw2nt-install.sh https://raw.githubusercontent.com/gooriltehran/pw2-node-tester/main/install.sh && sh /tmp/pw2nt-install.sh
+```
  
 Then open LuCI and refresh the page with Ctrl+F5.
  
@@ -144,7 +150,9 @@ Uninstall
  
 Run the following command over SSH on your router:
 
+```sh
 wget -O /tmp/pw2nt-uninstall.sh https://raw.githubusercontent.com/gooriltehran/pw2-node-tester/main/uninstall.sh && sh /tmp/pw2nt-uninstall.sh
+```
  
 Only the files added by this add-on are removed. Passwall2, its UCI configuration, and all of your nodes remain untouched.
  
