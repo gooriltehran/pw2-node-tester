@@ -1,7 +1,7 @@
 PW2 Node Tester
  
 https://openwrt.org/
-https://github.com/xiaorouji/openwrt-passwall2
+[https://github.com/Openwrt-Passwall/openwrt-passwall2
 LICENSE
 Shell
 DependenciesA lightweight, non-invasive node latency tester for Passwall2 on ImmortalWrt / OpenWrt.
